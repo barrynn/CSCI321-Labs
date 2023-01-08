@@ -1,0 +1,589 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22000.739; Version 2009; 64bit' Language: 'en' Physical Memory: 8072 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/barne/CSCI 321 labs/Lab 2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55201
+Successfully changed project path to: C:/Users/barne/CSCI 321 labs/Lab 2
+C:/Users/barne/CSCI 321 labs/Lab 2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 219.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/barne/CSCI 321 labs/Lab 2/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.5749
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003317 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.210 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2210ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (498ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (160ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.073955 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.048 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1050ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (833ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1771 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 94.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2226.
+Total: 2.765400 ms (FindLiveObjects: 0.165100 ms CreateObjectMapping: 0.056100 ms MarkObjects: 2.447100 ms  DeleteObjects: 0.095900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Lava_Flowing_Shader/Scripts
+  artifactKey: Guid(ef4e4c1c038208c4da515c42b8b133bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava_Flowing_Shader/Scripts using Guid(ef4e4c1c038208c4da515c42b8b133bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52dd9ab45516c78d5568e7dfd0228f76') in 0.007010 seconds 
+  Import took 0.011599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041112 seconds.
+  path: Assets/UrbanNightSky/Materials
+  artifactKey: Guid(ce6cdba8c817eb44096aea15151fd770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UrbanNightSky/Materials using Guid(ce6cdba8c817eb44096aea15151fd770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6939cb24ed06a08ec79670f08bbb06ad') in 0.002584 seconds 
+  Import took 0.006479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004605 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Textures
+  artifactKey: Guid(02cd6766499a380488feee9d872081d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Textures using Guid(02cd6766499a380488feee9d872081d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044c5c4b9b450049b0234a8255a8c2e7') in 0.002187 seconds 
+  Import took 0.005681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008231 seconds.
+  path: Assets/Lava_Flowing_Shader/Prefabs/Lava_transparent.prefab
+  artifactKey: Guid(39639071f8fd3cd4da6c9e24297512a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava_Flowing_Shader/Prefabs/Lava_transparent.prefab using Guid(39639071f8fd3cd4da6c9e24297512a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3bf2aaeaeb592a2986c6214fe863725') in 0.140913 seconds 
+  Import took 0.145652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018204 seconds.
+  path: Assets/rock_01/rock_01.mat
+  artifactKey: Guid(c8bfd1cfda4aa4a48ad75d920a9948c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rock_01/rock_01.mat using Guid(c8bfd1cfda4aa4a48ad75d920a9948c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde41bdfc4eecd5acc7f0ae252dda7e4') in 0.172388 seconds 
+  Import took 0.176261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005496 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Prefabs/Metal Rusted Green Tile.prefab
+  artifactKey: Guid(8977cadd0f8113e4f8e04872fe2a2d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Prefabs/Metal Rusted Green Tile.prefab using Guid(8977cadd0f8113e4f8e04872fe2a2d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35a1dfa8930d510a9bab54f9c792ab0') in 0.070200 seconds 
+  Import took 0.073610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016637 seconds.
+  path: Assets/Lava_Flowing_Shader/Shaders/Unlit_Lava_Distort.shader
+  artifactKey: Guid(6a151f652f5ba03458e9a7cd03ae88e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava_Flowing_Shader/Shaders/Unlit_Lava_Distort.shader using Guid(6a151f652f5ba03458e9a7cd03ae88e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d8d3f3c3098c217e0b5189a90e2196') in 0.006872 seconds 
+  Import took 0.010720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047328 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Textures/Metal/Materials/MetalBlueCorrodedLeaks_Occlusion.mat
+  artifactKey: Guid(b9cc900d6a001f446986bd4b2b7fca78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Textures/Metal/Materials/MetalBlueCorrodedLeaks_Occlusion.mat using Guid(b9cc900d6a001f446986bd4b2b7fca78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe6f5413d2489f87e4afeb0f311f5d2') in 0.017614 seconds 
+  Import took 0.021219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089388 seconds.
+  path: Assets/rock_01
+  artifactKey: Guid(a5a956e3002e718479aac18a7d656e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rock_01 using Guid(a5a956e3002e718479aac18a7d656e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db30f2574ca0929b901a28993d672b4a') in 0.002032 seconds 
+  Import took 0.005251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111069 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Prefabs/CinderBlockWhitePaintedCracked.prefab
+  artifactKey: Guid(09bc4e01f048b2542867c53b54563b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Prefabs/CinderBlockWhitePaintedCracked.prefab using Guid(09bc4e01f048b2542867c53b54563b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4f0b75cd9d58c55b134ea70fea646a') in 0.202318 seconds 
+  Import took 0.227300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026021 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Prefabs/BricksWhitePaintedCracked02.prefab
+  artifactKey: Guid(4215d49e02861784eba5cb9bdeb2b0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Prefabs/BricksWhitePaintedCracked02.prefab using Guid(4215d49e02861784eba5cb9bdeb2b0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762530ae287c4cba57f4bae012c7763f') in 0.143846 seconds 
+  Import took 0.149986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035299 seconds.
+  path: Assets/Lava_Flowing_Shader/Prefabs/Lava_simple.prefab
+  artifactKey: Guid(d2debcb3c417b07419457484a835eb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava_Flowing_Shader/Prefabs/Lava_simple.prefab using Guid(d2debcb3c417b07419457484a835eb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb786527f02154204f867f04f36e396') in 0.022641 seconds 
+  Import took 0.026340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034251 seconds.
+  path: Assets/UrbanNightSky
+  artifactKey: Guid(e1f29920b2f1d1e4da69fc1ea27176e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UrbanNightSky using Guid(e1f29920b2f1d1e4da69fc1ea27176e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5866d4eb609d030799609893d18d6ce') in 0.002969 seconds 
+  Import took 0.007356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091607 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Textures/Metal/Materials
+  artifactKey: Guid(ecc00f077e29aaf4d85ccce046121fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Textures/Metal/Materials using Guid(ecc00f077e29aaf4d85ccce046121fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e2172672f841b91f0d51b7f022bb3d') in 0.005141 seconds 
+  Import took 0.011268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063052 seconds.
+  path: Assets/Lava_Flowing_Shader/Prefabs
+  artifactKey: Guid(98de54e952a28364c84cbacefd011abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava_Flowing_Shader/Prefabs using Guid(98de54e952a28364c84cbacefd011abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f871970609e5e2b8c8bdcaaaea807b2c') in 0.002776 seconds 
+  Import took 0.006727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.109253 seconds.
+  path: Assets/Lava_Flowing_Shader/Shaders/Unlit_Lava_Simple.shader
+  artifactKey: Guid(bec21333d7f8cf84cb75cab616acf589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava_Flowing_Shader/Shaders/Unlit_Lava_Simple.shader using Guid(bec21333d7f8cf84cb75cab616acf589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4e07ef890b85ac47ee8a780b9eaa81') in 0.002899 seconds 
+  Import took 0.006250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.428251 seconds.
+  path: Assets/UrbanNightSky/Readme.txt
+  artifactKey: Guid(e8323ebd76285924883eeb3a4333133d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UrbanNightSky/Readme.txt using Guid(e8323ebd76285924883eeb3a4333133d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8ce50f5aa34e6bbb51b816a33451e4') in 0.038706 seconds 
+  Import took 0.042831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002943 seconds.
+  path: Assets/Metal Floor (Rust Low)/Materials
+  artifactKey: Guid(5d112a2c0bc20d942899a749a3f1acec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal Floor (Rust Low)/Materials using Guid(5d112a2c0bc20d942899a749a3f1acec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdd81fd5597e486eb45b7dd800fa795') in 0.002091 seconds 
+  Import took 0.005611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061061 seconds.
+  path: Assets/Lava_Flowing_Shader/ReadMe.txt
+  artifactKey: Guid(85580c0999f852645a0f8bf54b7116bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava_Flowing_Shader/ReadMe.txt using Guid(85580c0999f852645a0f8bf54b7116bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e9384703c3fc3d44bfa8d95cbda4b2') in 0.003928 seconds 
+  Import took 0.009423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036559 seconds.
+  path: Assets/Lava_Flowing_Shader/Shaders/Unlit_Lava_Distort_Transparent.shader
+  artifactKey: Guid(0803b816564bc844b9300c6e1572fcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava_Flowing_Shader/Shaders/Unlit_Lava_Distort_Transparent.shader using Guid(0803b816564bc844b9300c6e1572fcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed46eeb781e721e4ca58b6efa87fec28') in 0.002694 seconds 
+  Import took 0.006075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008944 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Prefabs/MetalBlueCorrodedLeaks.prefab
+  artifactKey: Guid(a7160444a946fc44e84aa8cf2d9ad910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Prefabs/MetalBlueCorrodedLeaks.prefab using Guid(a7160444a946fc44e84aa8cf2d9ad910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8782d9535be7648a96140dabc3cb792a') in 0.047661 seconds 
+  Import took 0.051320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016068 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Prefabs/BricksWhitePaintedCracked01.prefab
+  artifactKey: Guid(81542e9d18e86ae4ab61132efebe3b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Prefabs/BricksWhitePaintedCracked01.prefab using Guid(81542e9d18e86ae4ab61132efebe3b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8653ef738c7b8a87cceb25f366feac62') in 0.047116 seconds 
+  Import took 0.050488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050394 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Materials/Concrete/CinderBlockWhitePaintedCracked.mat
+  artifactKey: Guid(e33aa565c755e9a4fb0f353db5168db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Materials/Concrete/CinderBlockWhitePaintedCracked.mat using Guid(e33aa565c755e9a4fb0f353db5168db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9f690431247f308340ca71d830f805') in 0.023595 seconds 
+  Import took 0.027319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025713 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Prefabs/ConcreteWeatheredMossy.prefab
+  artifactKey: Guid(155e01317a6651542a009a5d66c26711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Prefabs/ConcreteWeatheredMossy.prefab using Guid(155e01317a6651542a009a5d66c26711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6867ae0927d67d92342ea402f381f0') in 0.048777 seconds 
+  Import took 0.052794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103802 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Prefabs
+  artifactKey: Guid(94fd3c92e2cf7be4c9a701eb7dc2dd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Prefabs using Guid(94fd3c92e2cf7be4c9a701eb7dc2dd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7946b9a9e65f5b2c83fa6e21246785f3') in 0.002241 seconds 
+  Import took 0.005582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002926 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(3c09c979b7836744094bdb7097364e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(3c09c979b7836744094bdb7097364e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67833319d92a874bc132f6a94c81a00') in 0.002572 seconds 
+  Import took 0.013357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.303713 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Textures/Ground
+  artifactKey: Guid(5c2aa43e27d9f4a4694498c2597aeac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Textures/Ground using Guid(5c2aa43e27d9f4a4694498c2597aeac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85534a9461c125a8353ae3b9539e2f39') in 0.008978 seconds 
+  Import took 0.020414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095063 seconds.
+  path: Assets/Lava_Flowing_Shader/Prefabs/Lava_distort.prefab
+  artifactKey: Guid(7c9fb993626aaf8488be64eb9feadbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava_Flowing_Shader/Prefabs/Lava_distort.prefab using Guid(7c9fb993626aaf8488be64eb9feadbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f6a9aadd91b1a787a61e1451741cde') in 0.043402 seconds 
+  Import took 0.063692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100535 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Materials/Ground
+  artifactKey: Guid(a37e2b664feb20941948fdcc66a007b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Materials/Ground using Guid(a37e2b664feb20941948fdcc66a007b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72603a0b805164c1f75760f8264ba2b7') in 0.002318 seconds 
+  Import took 0.005456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022291 seconds.
+  path: Assets/Lava_Flowing_Shader/Shaders/Diffuse_Lava_Distort.shader
+  artifactKey: Guid(036402a4b0d5f4342bbf1b572714f64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava_Flowing_Shader/Shaders/Diffuse_Lava_Distort.shader using Guid(036402a4b0d5f4342bbf1b572714f64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12d3cde1b76c891782e88fee2a93607') in 0.002870 seconds 
+  Import took 0.006602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006440 seconds.
+  path: Assets/Lava_Flowing_Shader/Scenes/FLowingLava.unity
+  artifactKey: Guid(4b5197d2a37c07c4ea690670a25a282d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava_Flowing_Shader/Scenes/FLowingLava.unity using Guid(4b5197d2a37c07c4ea690670a25a282d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e65a2b94bceb4928f04dc850c8d713b') in 0.003129 seconds 
+  Import took 0.006201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036326 seconds.
+  path: Assets/Lava_Flowing_Shader/Prefabs/Lava_diffuse.prefab
+  artifactKey: Guid(86672f35e84daff4699b96a3c82ee675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava_Flowing_Shader/Prefabs/Lava_diffuse.prefab using Guid(86672f35e84daff4699b96a3c82ee675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c154981cfe6a994f1711cb02247d3cf') in 0.013474 seconds 
+  Import took 0.016615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028544 seconds.
+  path: Assets/Lava_Flowing_Shader/Scenes/FLowingLavaSettings.lighting
+  artifactKey: Guid(9f9b6ea127362a94994a81501d5ec4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava_Flowing_Shader/Scenes/FLowingLavaSettings.lighting using Guid(9f9b6ea127362a94994a81501d5ec4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'e3a068f8440ec3ee22baefdd1f8cc227') in 0.007014 seconds 
+  Import took 0.009988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016828 seconds.
+  path: Assets/NewLayer 2.terrainlayer
+  artifactKey: Guid(2d924b3f64aae8043addc604668be56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 2.terrainlayer using Guid(2d924b3f64aae8043addc604668be56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ac524c6835f2a33742965cad4a5f5e') in 0.022948 seconds 
+  Import took 0.026048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016647 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Textures/Brick
+  artifactKey: Guid(a0a8b32cb6eb01b4b9ace6e5ee93fa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Textures/Brick using Guid(a0a8b32cb6eb01b4b9ace6e5ee93fa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e67ad68fdbc5a0f58e963e99f50cf1f') in 0.002288 seconds 
+  Import took 0.005289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008235 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Demo/SampleScene.unity
+  artifactKey: Guid(e77dbec3f4122c0418c398bd19e19df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Demo/SampleScene.unity using Guid(e77dbec3f4122c0418c398bd19e19df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43057ac26499e9761af8f576871d2ad8') in 0.002718 seconds 
+  Import took 0.005490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013153 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(b6e4a3a027299144ebaba7079a12e12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(b6e4a3a027299144ebaba7079a12e12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b147b889af0cbd3439e6b3b8d9af03bf') in 0.040341 seconds 
+  Import took 0.050051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004658 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Prefabs/BricksSmallYellowPaintedCracks.prefab
+  artifactKey: Guid(b4ebd7ecc2664154388f3afcb44ad9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Prefabs/BricksSmallYellowPaintedCracks.prefab using Guid(b4ebd7ecc2664154388f3afcb44ad9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1dd3cd9df8717822a20f242e7273c8') in 0.076409 seconds 
+  Import took 0.081586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006003 seconds.
+  path: Assets/UrbanNightSky/Demo/UrbanNightSky Demo.unity
+  artifactKey: Guid(0e789f544dcc6f44b938524326765974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UrbanNightSky/Demo/UrbanNightSky Demo.unity using Guid(0e789f544dcc6f44b938524326765974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da26f861e4e2d6edbc643c7ec6e66bb') in 0.004066 seconds 
+  Import took 0.013757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094412 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Prefabs/Plane.prefab
+  artifactKey: Guid(25aa79d5b007e08418230b3fb0efe246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Prefabs/Plane.prefab using Guid(25aa79d5b007e08418230b3fb0efe246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930d26dc085b5071559156c4eb917639') in 0.014013 seconds 
+  Import took 0.017819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.534926 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Textures/Concrete
+  artifactKey: Guid(0e6d07a534534a04895911a1ec4d93ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Textures/Concrete using Guid(0e6d07a534534a04895911a1ec4d93ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdca0bfd9b843835547197b1e19f618') in 0.002278 seconds 
+  Import took 0.006132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043250 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18680e4af373b80f11eae72487a60f23') in 0.002389 seconds 
+  Import took 0.005623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009557 seconds.
+  path: Assets/UrbanNightSky/Demo
+  artifactKey: Guid(928a0ae9cf623f64cb909c7f933c5ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UrbanNightSky/Demo using Guid(928a0ae9cf623f64cb909c7f933c5ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f725096d183e1dca5f61febfe89e40b') in 0.002343 seconds 
+  Import took 0.005302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030283 seconds.
+  path: Assets/Lava_Flowing_Shader/Shaders
+  artifactKey: Guid(794b02ca7762ed94aa4db287ff5bee67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava_Flowing_Shader/Shaders using Guid(794b02ca7762ed94aa4db287ff5bee67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c779b2c9ba1e0274d8fb43bd2d1c99b7') in 0.002497 seconds 
+  Import took 0.005410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035071 seconds.
+  path: Assets/Lava_Flowing_Shader/Scenes
+  artifactKey: Guid(d1e873dc890a11a40a82a8a7d8b2cf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava_Flowing_Shader/Scenes using Guid(d1e873dc890a11a40a82a8a7d8b2cf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2312124689f281ceab750b6cc74a75') in 0.002773 seconds 
+  Import took 0.006284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006934 seconds.
+  path: Assets/UrbanNightSky/Demo/Materials
+  artifactKey: Guid(383b263db94e6164cb4c3fe8b60740b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UrbanNightSky/Demo/Materials using Guid(383b263db94e6164cb4c3fe8b60740b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2f527786f78b901ee8761154bf41f6') in 0.002026 seconds 
+  Import took 0.004472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051400 seconds.
+  path: Assets/NewLayer 1.terrainlayer
+  artifactKey: Guid(43a412323505cd7469c36ac8b62621bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 1.terrainlayer using Guid(43a412323505cd7469c36ac8b62621bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e13bda685ff086d5f22c96f3c4b8c61') in 0.013571 seconds 
+  Import took 0.016285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007961 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Textures/Metal
+  artifactKey: Guid(5e1bbd045bac2c043a8cbd84d48dc995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Textures/Metal using Guid(5e1bbd045bac2c043a8cbd84d48dc995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b9f78b7fa2ff6f80f9c8105ee8ad94') in 0.002344 seconds 
+  Import took 0.005216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004361 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Prefabs/ConcretePatternPaintedWhite.prefab
+  artifactKey: Guid(f2057879305871a4ea476286290094f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Prefabs/ConcretePatternPaintedWhite.prefab using Guid(f2057879305871a4ea476286290094f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d37e57b89d1e15bef854189a2831840') in 0.062225 seconds 
+  Import took 0.071603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007505 seconds.
+  path: Assets/Metal Floor (Rust Low)
+  artifactKey: Guid(3143fe592e27e6344a4135c00cf4e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal Floor (Rust Low) using Guid(3143fe592e27e6344a4135c00cf4e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bea592eca2bf4ef6832049bcc575f2') in 0.011266 seconds 
+  Import took 0.014118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.414910 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Demo
+  artifactKey: Guid(3fee578bbbf421c42bb8486795ba2a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Demo using Guid(3fee578bbbf421c42bb8486795ba2a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fd6c42dced3f6c3b8db28af5f7ec4b') in 0.003067 seconds 
+  Import took 0.009288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018155 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Materials/Concrete
+  artifactKey: Guid(9519c14d717ecf645ad19afe3242cfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Materials/Concrete using Guid(9519c14d717ecf645ad19afe3242cfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1307f2210283e6e6de8781c037ba24e') in 0.007526 seconds 
+  Import took 0.023484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055779 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Materials/Brick
+  artifactKey: Guid(4b8665c1420aa304ca1f73339d73fbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Materials/Brick using Guid(4b8665c1420aa304ca1f73339d73fbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ccdb4eaa21cb9a452ecea11efe6880') in 0.005183 seconds 
+  Import took 0.007915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.153038 seconds.
+  path: Assets/UrbanNightSky/Textures
+  artifactKey: Guid(8af58ef2e2d966a43b045e43919d814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UrbanNightSky/Textures using Guid(8af58ef2e2d966a43b045e43919d814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d4dc558d8c41f8c967e07fdb389058') in 0.002142 seconds 
+  Import took 0.005376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055815 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Prefabs/GroundWaterForestLeaves.prefab
+  artifactKey: Guid(17d4f6bfa79753241af6af628126ed40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Prefabs/GroundWaterForestLeaves.prefab using Guid(17d4f6bfa79753241af6af628126ed40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2b0d0ae06c7c83653c98ef5b0d8bf9') in 0.053759 seconds 
+  Import took 0.058306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004509 seconds.
+  path: Assets/JailBreak/MyRealMaterialsFree/Prefabs/GroundMoistForestLeaves.prefab
+  artifactKey: Guid(e2999de25995e20498739e97be4a7f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JailBreak/MyRealMaterialsFree/Prefabs/GroundMoistForestLeaves.prefab using Guid(e2999de25995e20498739e97be4a7f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a98c92f0f8bf7fdf3a3d194b6a6625') in 0.005854 seconds 
+  Import took 0.010050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097435 seconds.
+  path: Assets/Metal Floor (Rust Low)/Material
+  artifactKey: Guid(eb3a1ce0f11500a469a174700791a951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal Floor (Rust Low)/Material using Guid(eb3a1ce0f11500a469a174700791a951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b305c800bff70f7019384690a7e9b2d') in 0.002296 seconds 
+  Import took 0.005126 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
